@@ -1,0 +1,103 @@
+/* Create table about the people and what they do here */
+
+CREATE TABLE bookriot_bestauthors (id INTEGER PRIMARY KEY,name TEXT, rank INTEGER) ;
+INSERT INTO bookriot_bestauthors VALUES (1, "Judy Blume", 1);
+INSERT INTO bookriot_bestauthors VALUES (2, "Eric Carle", 2);
+INSERT INTO bookriot_bestauthors VALUES (3, "Yangsook Choi", 3);
+INSERT INTO bookriot_bestauthors VALUES (4, "Beverly Cleary", 4);
+INSERT INTO bookriot_bestauthors VALUES (5, "Christopher Paul Curtis",5);
+INSERT INTO bookriot_bestauthors VALUES (6, "Roald Dahl", 6);
+INSERT INTO bookriot_bestauthors VALUES (7, "Kate DiCamillo", 7);
+INSERT INTO bookriot_bestauthors VALUES (8, "Grace Lin", 8);
+INSERT INTO bookriot_bestauthors VALUES (9, "Arnold Lobel", 9);
+INSERT INTO bookriot_bestauthors VALUES (10, "Lenore Look", 10);
+INSERT INTO bookriot_bestauthors VALUES (11, "Andrea David Pinkney", 11);
+INSERT INTO bookriot_bestauthors VALUES (12, "Jerry Pinkney", 12);
+INSERT INTO bookriot_bestauthors VALUES (13, "Adam Rubin and Daniel Salieri", 13);
+INSERT INTO bookriot_bestauthors VALUES (14, "Pam Munoz Ryan", 14);
+INSERT INTO bookriot_bestauthors VALUES (15, "Dan Santat", 15);
+INSERT INTO bookriot_bestauthors VALUES (16, "Maurice Sendak", 16);
+INSERT INTO bookriot_bestauthors VALUES (17, "Dr. Seuss", 17);
+INSERT INTO bookriot_bestauthors VALUES (18, "Noel Streatfeild", 18);
+INSERT INTO bookriot_bestauthors VALUES (19, "Mo Willems", 19);
+INSERT INTO bookriot_bestauthors VALUES (20, "Jacqueline Woodson", 20);
+
+CREATE TABLE slj_bestbooks (id INTEGER PRIMARY KEY, title TEXT, author TEXT, rank INTEGER) ;
+INSERT INTO slj_bestbooks VALUES (1, "Charlotte's Web", "E.B. White", 1);
+INSERT INTO slj_bestbooks VALUES (2 ,"A Wrinkle in Time", "Madeleine L’Engle", 2);
+INSERT INTO slj_bestbooks VALUES (3, "Harry Potter and the Sorcerer’s Stone", "J.K. Rowling", 3);
+INSERT INTO slj_bestbooks VALUES (4, "The Lion, the Witch, and the Wardrobe", "C.S. Lewis", 4);
+INSERT INTO slj_bestbooks VALUES (5, "From the Mixed Up Files of Mrs. Basil E. Frankweiler", "E. L. Konigsburg", 5);
+INSERT INTO slj_bestbooks VALUES (6, "Holes", "Louis Sachar", 6);
+INSERT INTO slj_bestbooks VALUES (7, "The Giver", "Lois Lowry", 7);
+INSERT INTO slj_bestbooks VALUES (8, "The Secret Garden","Frances Hodgson Burnett", 8);
+INSERT INTO slj_bestbooks VALUES (9, "Anne of Green Gables", "L.M. Montgomery", 9);
+INSERT INTO slj_bestbooks VALUES (10, "The Phantom Tollbooth", "Norton Juster", 10);
+INSERT INTO slj_bestbooks VALUES (11, "The Westing Game", "Ellen Raskin", 11);
+INSERT INTO slj_bestbooks VALUES (12, "The Hobbit", "J.R.R. Tolkien", 12);
+INSERT INTO slj_bestbooks VALUES (13, "Bridge to Terabithia", "Katherine Paterson", 13);
+INSERT INTO slj_bestbooks VALUES (14, "Harry Potter and the Prisoner of Azkaban", "J.K. Rowling", 14);
+INSERT INTO slj_bestbooks VALUES (15, "Because of Winn-Dixie", "Kate DiCamillo", 15);
+INSERT INTO slj_bestbooks VALUES (16, "Harriet the Spy", "Louise Fitzhugh", 16);
+INSERT INTO slj_bestbooks VALUES (17, "Maniac Magee","Jerry Spinelli", 17);
+INSERT INTO slj_bestbooks VALUES (18, "Matilda", "Roald Dahl", 18);
+INSERT INTO slj_bestbooks VALUES (19, "Charlie and the Chocolate Factory", "Roald Dahl", 19);
+INSERT INTO slj_bestbooks VALUES (20, "Tuck Everlasting","Natalie Babbitt", 20);
+INSERT INTO slj_bestbooks VALUES (21, "Percy Jackson and the Olympians: The Lightning Thief", "Rick Riodan", 21);
+INSERT INTO slj_bestbooks VALUES (22, "The Tale of Despereaux: Being the Story of a Mouse, a Princess, Some Soup, and a Spool of Thread", "Kate DiCamillo", 22);
+INSERT INTO slj_bestbooks VALUES (23, "Little House in the Big Woods", "Laura Ingalls Wilder", 23);
+INSERT INTO slj_bestbooks VALUES (24, "Harry Potter and the Deathly Hallows", "J.K. Rowling", 24);
+INSERT INTO slj_bestbooks VALUES (25, "Little Women", "Louisa May Alcott", 25);
+INSERT INTO slj_bestbooks VALUES (26, "Hatchet", "Gary Paulsen", 26);
+INSERT INTO slj_bestbooks VALUES (27, "A Little Princess","Francis Hodgson Burnett", 27);
+INSERT INTO slj_bestbooks VALUES (28, "Winnie the Pooh","A.A. Milne", 28);
+INSERT INTO slj_bestbooks VALUES (29, "Alice’s Adventures in Wonderland / Alice Through the Looking Glass", "Lewis Carroll", 29);
+INSERT INTO slj_bestbooks VALUES (30, "The Dark is Rising","Susan Cooper", 30);
+INSERT INTO slj_bestbooks VALUES (31, "Half Magic", "Edward Eager", 31);
+INSERT INTO slj_bestbooks VALUES (32, "Mrs. Frisby and the Rats of NIMH","Robert C. O’Brien", 32);
+INSERT INTO slj_bestbooks VALUES (33, "James and the Giant Peach","Roald Dahl", 33);
+INSERT INTO slj_bestbooks VALUES (34, "Watsons Go to Birmingham, 1963","Christopher Paul Curtis", 34);
+INSERT INTO slj_bestbooks VALUES (35, "Harry Potter and the Goblet of Fire", "J.K. Rowling", 35);
+INSERT INTO slj_bestbooks VALUES (36, "Are You There, God? It’s Me, Margaret","Judy Blume", 36);
+INSERT INTO slj_bestbooks VALUES (37, "Roll of Thunder, Hear My Cry","Mildred Taylor", 37);
+INSERT INTO slj_bestbooks VALUES (38, "Harry Potter and the Order of the Phoenix","J.K. Rowling", 38);
+INSERT INTO slj_bestbooks VALUES (39, "When You Reach Me", "Rebecca Stead", 39);
+INSERT INTO slj_bestbooks VALUES (40, "The Wonderful Wizard of Oz","L. Frank Baum", 40);
+INSERT INTO slj_bestbooks VALUES (41, "The Witch of Blackbird Pond", "Elizabeth George Speare", 41);
+INSERT INTO slj_bestbooks VALUES (42, "Little House on the Prairie","Laura Ingalls Wilder", 42);
+INSERT INTO slj_bestbooks VALUES (43, "Ramona the Pest","Beverly Cleary", 43);
+INSERT INTO slj_bestbooks VALUES (44, "Tales of a Fourth Grade Nothing","Judy Blume", 44);
+INSERT INTO slj_bestbooks VALUES (45, "The Golden Compass","Philip Pullman", 45);
+INSERT INTO slj_bestbooks VALUES (46, "Where the Red Fern Grows","Wilson Rawls", 46);
+INSERT INTO slj_bestbooks VALUES (47, "Bud, Not Buddy","Christopher Paul Curtis", 47);
+INSERT INTO slj_bestbooks VALUES (48, "The Penderwicks: A Summer Tale of Four Sisters, Two Rabbits and a Very Interesting Boy","Jeanne Birdsall", 48);
+INSERT INTO slj_bestbooks VALUES (49, "Frindle","Andrew Clements", 49);
+INSERT INTO slj_bestbooks VALUES (50, "Island of the Blue Dolphins","Scott O’Dell", 50);
+
+CREATE TABLE bestselling_books (id INTEGER PRIMARY KEY,title TEXT, author TEXT, rank INTEGER);
+INSERT INTO bestselling_books VALUES(1,"Oh, the Places You'll Go","Dr. Seuss",1);
+INSERT INTO bestselling_books VALUES(2,"Love You Forever","Robert Munsch",2);
+INSERT INTO bestselling_books VALUES(3,"Goodnight Moon","Margaret Wise Brown",3);
+INSERT INTO bestselling_books VALUES(4,"The Elf on the Shelf","Carol Aebersold and Chanda Bell",4);
+INSERT INTO bestselling_books VALUES(5,"Green Eggs and Ham","Dr. Seuss",5);
+INSERT INTO bestselling_books VALUES(6,"The Very Hungry Caterpillar","Eric Carle",6);
+INSERT INTO bestselling_books VALUES(7,"Where the Wild Things Are","Maurice Sendak",7);
+INSERT INTO bestselling_books VALUES(8,"Brown Bear, Brown Bear, What Do You See?","Bill Martin, Jr.",8);
+INSERT INTO bestselling_books VALUES(9,"The Polar Express","Chris Van Allsburg",9);
+INSERT INTO bestselling_books VALUES(10,"The Giving Tree","Shel Silverstein",10);
+
+/*Join best books and best authors*/
+SELECT name, slj_bestbooks.title FROM bookriot_bestauthors
+INNER JOIN slj_bestbooks
+ON slj_bestbooks.author = bookriot_bestauthors.name
+LEFT JOIN bestselling_books
+ON bestselling_books.author = bookriot_bestauthors.name;
+
+/*Join best authors and best selling books*/
+SELECT DISTINCT bookriot_bestauthors.id, bestselling_books.author as bs_authors FROM bookriot_bestauthors
+INNER JOIN bestselling_books
+ON bestselling_books.author = bookriot_bestauthors.name;
+
+
+
+
